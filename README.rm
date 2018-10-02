@@ -1,0 +1,8 @@
+This dll provides 2 abilities for an NSIS installer window:
+
+1. Dragging ability - enable moving the main NSIS installer window from any child
+window area (i.e: dragging from an upper bar window).
+
+2. buttons hovering - enable changing buttons pictures while the mouse is 
+hovering them
+
