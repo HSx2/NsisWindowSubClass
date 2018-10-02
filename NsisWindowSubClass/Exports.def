@@ -1,0 +1,6 @@
+LIBRARY NsisWindowSubClass
+EXPORTS
+	EnableDrag
+	EnableHoverPics
+	SetParentWindow
+	SetButton
