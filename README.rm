@@ -6,3 +6,9 @@ window area (i.e: dragging from an upper bar window).
 2. buttons hovering - enable changing buttons pictures while the mouse is 
 hovering them
 
+Exported funstions, signatures and discription: 
+1. VOID __stdcall EnableDrag(HWND hwnd) // Register a child window as an area that enabled the NSIS naim window dragging
+2. VOID __stdcall EnableHoverPics(HWND hwnd) //Register a button in order to recieve hovering events notifications 
+3. VOID __stdcall SetParentWindow(HWND hwnd) // Sets the NSIS installer parent window, which will be the window to be dragged by any provided child windows area
+4. VOID __stdcall SetButton(HWND hwnd, LPCWSTR no_hover_pic, LPCWSTR hover_pic) // Sets a button's properties - hover and non-hover pictures. These will be used if the button was registered using 'EnableHoverPics()'
+
